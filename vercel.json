@@ -1,20 +1,6 @@
 {
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
-        },
-        {
-          "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://*.vercel.app http://localhost:3000"
-        }
-      ]
-    }
-  ],
   "framework": "vite",
-  "buildCommand": "npm run build",
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
   "outputDirectory": "dist"
 }
