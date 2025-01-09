@@ -1,6 +1,6 @@
 // Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+const Home = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
       <div className="text-center">
@@ -13,4 +13,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Home;
