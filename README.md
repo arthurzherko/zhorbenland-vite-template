@@ -1,6 +1,6 @@
 # Welcome to your Landify project
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made via Zhorben will be committed automatically to this repo.
 
 ## What technologies are used for this project?
 
