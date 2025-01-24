@@ -1,6 +1,6 @@
 // Update this page (the content is just a fallback if you fail to update the page)
 
-const Home = () => {
+export function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
       <div className="text-center">
@@ -11,6 +11,4 @@ const Home = () => {
       </div>
     </div>
   );
-};
-
-export default Home;
+}
