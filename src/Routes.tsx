@@ -1,10 +1,10 @@
 import { Routes as RouterRoutes, Route } from "react-router-dom";
-import { Index } from "./pages/";
+import { Home } from "./pages/home";
 
 const Routes = () => (
   <RouterRoutes>
-    <Route path="/" element={<Index />} />
+    <Route path="/" element={<Home />} />
   </RouterRoutes>
 );
 
-export default Routes;
+export { Routes };
