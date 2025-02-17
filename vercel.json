@@ -8,5 +8,10 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "inject": {
+    "body": {
+      "html": "<a href='http://zhorben.com' target='_blank' style='position:fixed;bottom:20px;right:20px;z-index:99999;'><img src='http://zhorben.com/api/badge' alt='Made with Zhorben' style='max-width:150px;height:auto;' /></a>"
+    }
+  }
 }
